@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+body
+{
+}
+
+/*インターフェースで使用*/
+.interface-block{
+    margin: 5px 0px;
+}
+
+/*再生情報の表示*/
+.media-information-block {
+    margin: 5px 0px;
+}
+
+/*UI関係の設定の標準ボタン*/
+.default-button {
+    font-size: 24px;
+}
+
+/*演奏ボタン*/
+.play-button {
+    width: 70px;
+}
+
+/*停止ボタン*/
+.stop-button {
+    width: 70px;
+}
+
+/*テキスト内容をクリアにする*/
+.clear-button {
+    width: 70px;
+}
+
+/*数字領域*/
+.number-area {
+    border-radius: 5px; /* 角丸 */
+    font-size: 24px;
+}
+
+/*コンソール領域*/
+.console-block {
+    margin: 1px 0px;
+}
+
+/*コンソールテキストエリア*/
+.console-textarea {
+    border-radius: 5px; /* 角丸 */
+    font-size: 24px;
+    width: 95%;
+}
+
+/*テキストエリア*/
+.score-textarea {
+    border-radius: 5px; /* 角丸 */
+    font-size: 24px;
+    width: 95%;
+}

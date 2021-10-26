@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Play Score</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark_style.css">
+    <script src="audioapi.js" defer></script>
+
+</head>
+<body>
+
+    <div class="interface-block">
+        <button type="button" name="play" value="play" id="play-button" class="play-button  default-button">Play</button>
+        <button type="button" name="stop" value="stop" id="stop-button" class="stop-button  default-button">Stop</button>
+        <button type="button" name="test" value="test" id="test-button" class="test-button  default-button">Test</button>
+        <input type="number" name="number" value="1" min="1" placeholder="開始番号を入力してください" id="number-area" class="number-area">
+    </div>
+    <div class="console-block">
+        <textarea name="console-textarea" rows="1" id="console-textarea" class="console-textarea" readonly></textarea>
+    </div>
+    <textarea name="score" rows="50" cols="70" placeholder="再生する音の情報を半角スペースで区切りながら入力してください
+ID StartTime(ms) EndTime(ms) Note Remark Note2(Option) Remark2 Note3(Option) Remark3 ... Note10(Option) Remark10"
+              id="score-textarea" class="score-textarea">
+1 100 900 d4 =
+2 1200 2000 as4.b4.ff4 = fs4 100.10
+3 2500 3600 g4.ef4 1000.=.0 b4 +100.=.1200
+4 4000 4850 gs5 +250.*.750 ; b5 -120.=.1200 ; a5 0.*.+1500;
+5 6000 6300 b4 *
+6 6250 6600 cs5 *
+7 6550 7100 ds5 * gs2 *.0.2000
+8 7050 7400 b4 *
+9 7350 7700 gs4 *
+10 7950 8400 cs5 *
+11 8450 9000 as4 * fs2 *.0.2000
+12 8950 9300 fs4 *
+13 9250 9600 ds4 *
+14 9700 10300 as4 *
+15 10290 10800 gs4 * e2 *.0.2000
+16 10750 11200 fs4 *
+17 11150 11800 b3 *
+18 11750 12450 fs4 *
+19 12400 13100 b3 * b1 *.0.1500</textarea>
+
+</body>
+</html>

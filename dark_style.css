@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+
+@media (prefers-color-scheme: dark){
+
+    body {
+        background-color: #222222;
+        color: #CCCCCC;
+    }
+
+    .default-button {
+        color: #CCCCCC;
+        background-color: #333333; /* 背景色 */
+    }
+
+    .default-music-button {
+        color: #CCCCCC;
+        background-color: #333333; /* 背景色 */
+    }
+
+    /*コンソールテキストエリア*/
+    .console-textarea {
+        border: 1px solid #CCCCCC; /* 枠線 */
+        background-color: #222222; /* 背景色 */
+        color: #DDDDDD; /*文字色*/
+    }
+
+    /*テキストエリア*/
+    .score-textarea {
+        border: 1px solid #CCCCCC; /* 枠線 */
+        background-color: #222222; /* 背景色 */
+        color: #DDDDDD; /*文字色*/
+    }
+
+    /*数字領域*/
+    .number-area {
+        border: 1px solid #CCCCCC; /* 枠線 */
+        background-color: #222222; /* 背景色 */
+        color: #DDDDDD; /*文字色*/
+    }
+}
